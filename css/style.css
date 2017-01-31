@@ -1,0 +1,1046 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI";
+}
+
+body hr {
+    color: grey;
+    height: 1px;
+    background-color: grey;
+}
+
+h1,h2,h3,h4,h5,h6,p,a,ul,li {
+    font-size: 14px;
+    font-weight: normal;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-decoration:none;
+    color: #000;
+}
+
+.wrapper {
+    max-width: 1200px;
+    min-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: auto;
+}
+
+.btn_modal {
+    margin-top: 6px;
+    color: aqua;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#cabinet {
+    height: auto;
+    padding-bottom: 5px;
+    border-bottom: 2px solid black;
+}
+
+#cabinet #contacts {
+    float: left;
+}
+
+#cabinet #contacts li  {
+    display: inline-block;
+    position: relative;
+}
+
+#contacts li a {
+    padding:5px 10px 5px 20px;
+    font-size: 12px;
+    color: grey;
+    display: inline-block;
+    position: relative;
+}
+
+#contacts li a img {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+#cabinet #basket {
+    float: right;
+}
+
+#cabinet #basket a {
+    
+    display: inline-block;
+    position: relative;
+    font-size: 12px;
+    color: grey;
+    padding:5px 10px 5px 20px;
+}
+
+#basket a img {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+#site-header a, #site-header h1 {
+    color: grey;
+}
+
+#site-header {
+    height: auto;
+    overflow: auto;
+    
+}
+
+#site-header #site-logo {
+    float: left;
+    font-size: 25px;
+    padding: 15px 0;
+    font-weight: bold;
+}
+
+#site-header #site-navi {
+    float: right;
+}
+#site-header #site-navi li {
+    display: inline-block;
+}
+#site-navi li a {
+    font-size: 15px;
+    padding: 20px;
+    display: inline-block;
+    position: relative;
+}
+#site-navi li a img {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+#first-screen {
+    height: 500px;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+#first-screen .slider-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    min-height: 100%;
+    min-width: 100%;
+    width: 10000px;
+    transition: all 0.9s ease-in-out;
+    background: #000;
+}
+
+#first-screen .slider-box .slide {
+    float: left;
+    min-width: 100vw;
+    min-width: 100vw;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+#first-screen .slider-box .slide img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.nav-arrow {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 50px;
+}
+.nav-arrow img {
+    max-height: 100%;
+}
+.nav-arrow[data-direction="left"] {
+    left: 10px;
+}
+.nav-arrow[data-direction="right"] {
+    right: 10px;
+}
+
+#second-screen .topics {
+    display: inline-block;
+    width: 25%;
+    height: 100%;
+    float: left;
+    text-align: center;     
+        
+}
+#second-screen .box-container {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    overflow: auto;
+}
+#second-screen .topics p {
+    padding: 7px 0 0 0 ;
+    color: grey;
+}
+
+#second-screen .topics .avatar img {
+    padding: 0 0 15px 0 ;
+}
+
+#second-screen .topics h3 {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 500;
+    color: grey;
+}
+
+#second-screen .topics a:hover {
+    color: aqua;
+}
+
+
+
+#second-screen .topics a:hover {
+    color: black;
+}
+
+#third-screen {
+    background-color: #eff4f7;
+    overflow: auto;
+}
+
+#third-screen .double-container .topics {
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    float: left;
+    overflow: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    
+}
+
+#third-screen .topics h1 {
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+#third-screen .topics p {
+    color: grey;
+    margin-right: 5px;
+}
+
+ .button {
+    background: #21c2f8;
+    display: inline-block;
+    color: white;
+    padding: 10px 25px ;
+    margin-top: 20px;
+    border-radius: 3px;
+}
+
+#third-screen .second-button {
+    background: #0072a6;
+    display: inline-block;
+    color: #fff;
+    padding: 10px 10px 10px 10px;
+    margin-top: 20px;
+    margin-left: 10px;
+    border-radius: 3px;
+}
+
+#fourth-screen h1 {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 80px;
+    
+}
+
+#fourth-screen .navigation {
+    width: 600px;
+    padding: 20px ;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: auto;
+}
+
+#fourth-screen .navigation li {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    
+}
+
+#fourth-screen .navigation li a img {
+    display: inline-block;
+    float: right;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    padding-left: 10px;
+}
+
+
+
+#fourth-screen .first-button {
+    background: #fff;
+    display: inline-block;
+    color: grey;
+    padding: 10px 30px ;
+    border-radius: 3px;
+}
+
+#fourth-screen .border-button {
+    background: #21c2f8;
+    display: inline-block;
+    color: white;
+    padding: 10px 30px ;
+    border-radius: 3px;
+}
+
+#fourth-screen .box-container {
+    margin-bottom: 40px;
+    overflow: auto;
+    display: none;
+}
+
+#fourth-screen .box-container.active {
+    display: block ;
+}
+
+
+#fourth-screen .topics {
+    display: inline-block;
+    width: 30%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    margin: 0 20px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background: #eff4f7;
+    
+}
+
+#fourth-screen .topics img {
+    width: 100%;
+    display: block;
+}
+
+#fourth-screen .topics h3 {
+    font-size: 16px;
+    padding: 10px 0 10px 0;
+    display: inline-block;
+    width: 100%;
+    
+}
+
+#fourth-screen .topics p {
+    padding-bottom: 20px;
+    color: grey;
+}
+
+#fourth-screen .topics .hide {
+    display: none;
+    min-height: 240px;
+    position: relative;
+    
+}
+
+#fourth-screen .topics .hide img {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    
+}
+
+#fourth-screen .topics .hide a {
+    margin: 20px;
+}
+
+#fourth-screen .topics .hide .pict {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+#fourth-screen .topics:hover .hide {
+    display: block;
+    background: #21c2f8;
+}
+
+#fourth-screen .topics .currently .show:hover .hide img {
+    display: block;
+}
+
+#fourth-screen .topics:hover .show img{
+    display: none;
+}
+
+
+#fourth-screen .topics .currently:hover p {
+    background: #2f383d;
+}
+
+#fourth-screen .topics .currently:hover h3 {
+    color: #fff;
+    background: #2f383d;
+}
+
+#space {
+    background-image: url(../img/space.jpg);
+    height: auto;
+}
+
+#space h1 {
+    font-size: 24px;
+    text-align: center;
+    color: #fff;
+    margin-top: 40px;
+}
+#space #review {
+    overflow: auto;
+    position: relative;
+    margin:40px 0 40px 0;
+}
+
+#space #review .info {
+    display: inline-block;
+    width: 15%;
+    float: left;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+#space #review .speak {
+    display: inline-block;
+    width: 85%;
+    float: right;
+    border: 1px solid #fff;
+    border-radius: 2px;
+    
+}
+
+#space #review .info h2 {
+    color: #fff;
+    font-size: 20px;
+}
+
+#space #review .info p {
+    color: grey;
+}
+
+#space #review .speak p {
+    color: #fff;
+    padding: 20px ;
+}
+
+#space #logos {
+    overflow: auto;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+#space #logos .avatar {
+    display: inline-block;
+    width: 16.6%;
+    float: right; 
+    overflow-x: hidden;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+#space #logos .avatar img {
+    margin-left: 50%;
+    margin-right: 50%;
+    width: auto;
+    height: auto;
+    
+}
+
+
+#sixes .main {
+    overflow: auto;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+#sixes .main .box-topic {
+    width: 50%;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%);
+    transform: translateX(50%);
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+#sixes .main .box-topic h1{
+    font-size: 24px;
+    text-align: center;
+    color: #000;
+    
+}
+
+#sixes .main .box-topic p {
+    text-align: center;
+    color: grey;
+    margin-top: 10px;
+}
+
+#sixes .main .box-boxes .topics {
+    width: 33.3333%;
+    float: left;
+    padding-bottom: 20px;
+}
+#sixes .main .box-boxes .topics .avatar {
+    display: inline-block;
+    float: left;
+    background: #21c2f8;
+    margin-right: 10px;
+    height: 100%;
+    margin-bottom: 50px;
+    
+}
+
+#sixes .main .box-boxes .topics .avatar img {
+    padding: 5px;
+    height: 100%;
+    
+}
+
+#sixes .main .box-boxes .topics h2 {
+    font-size: 16px;
+}
+
+#sixes .main .box-boxes .topics p {
+    color: grey;
+    padding-top: 10px;
+}
+
+#quest {
+    background: #eff4f7;
+}
+
+#quest .main {
+    overflow: auto;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+#quest .main .box-topic {
+    width: 50%;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%);
+    transform: translateX(50%);
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+#quest .main .box-topic h1{
+    font-size: 28px;
+    text-align: center;
+    color: #000;
+}
+
+#quest .main .box-topic p {
+    text-align: center;
+    color: grey;
+    margin-top: 30px;
+}
+
+#quest .main .box-double {
+    overflow: auto;
+}
+
+#quest .main .box-double .topics {
+    width: 50%;
+    float: left;
+    overflow: auto;
+}
+
+#quest .main .box-double .topics .avatar {
+    float: right;
+}
+
+#quest .main .box-double .topics .akordeon {
+    float: left;
+    display: inline-block;
+    width: 100%;
+    background: #fff;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+#quest .main .box-double .topics .akordeon .list-title {
+    width: 100%;
+    overflow: auto;
+    cursor: pointer;
+}
+
+#quest .main .box-double .topics .akordeon .list-title .iconn {
+    float: left;
+    border-right: 3px solid #eff4f7;
+    padding: 5px 5px 2px 5px;
+}
+
+
+#quest .main .box-double .topics .akordeon .list-title h3 {
+    float: left;
+    height: auto;
+    display: inline-block;
+    text-align: center;
+    margin-top: 13.5px;
+    margin-left: 10px;
+    color: grey;
+}
+
+#quest .main .box-double .topics .akordeon .list-content {
+    padding: 15px 43px 15px ;
+    font-size: 14px;
+    background: #eff4f7;
+    display: none;
+}
+
+#information {
+    margin-bottom: 20px;
+}
+
+#information .box-container {
+    margin: 50px;
+}
+
+#information .box-container .topics {
+    display: inline-block;
+    width: 50%;
+    float: left;
+    margin-bottom: 40px;
+}
+
+#information .box-container .topics h2 {
+    font-size: 28px;
+    color: grey;
+    margin-bottom: 15px;
+}
+
+#information .box-container .topics p {
+    color: grey;
+    padding-right: 5px;
+    margin-bottom: 10px;
+}
+
+#information .box-container .topics .author .avatar {
+    float: left;
+}
+
+#information .box-container .topics .author {
+    display: inline-block;
+    width: 100%;
+    float: left;
+}
+
+#information .box-container .topics .author .avatar {
+    float: left;
+    width: 15%;
+    height: 100%;
+    margin-top: 30px;
+}
+
+#information .box-container .topics .author .info {
+    float: right;
+    width: 85%;
+}
+
+#information .box-container .topics .author .info h3 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#information .box-container .topics .author .info .infoicon {
+    width: 100%;
+    display: inline-block;
+}
+
+#information .box-container .topics .author .info .infoicon .social {
+    float: left;
+    margin-right: 5px;
+}
+
+#information .box-container .topics .author .info .infoicon .social img {
+    background: #bfccd5;
+    padding: 2px;
+}
+
+#information .box-container .topics .author .info .infoicon .social .current img {
+    background:#21c2f8;
+    
+}
+
+#information .box-container .topics .progress .progress-bar {
+    position: relative;
+    width: 400px;
+    height: 30px;
+    background: #ccc;
+    margin-bottom: 10px;
+}
+
+#information .box-container .topics .progress .progress-bar .active-bar1 {
+    background: #00f;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    width: 90%;
+    overflow: hidden;
+}
+
+#information .box-container .topics .progress .progress-bar .active-bar1 span {
+    color: #fff;
+    display: inline-block;
+    padding: 3px 13px 3px 13px;
+}
+
+#information .box-container .topics .progress .progress-bar .active-bar2 {
+    background: #00f;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    width: 70%;
+    overflow: hidden;
+}
+
+#information .box-container .topics .progress .progress-bar .active-bar2 span {
+    color: #fff;
+    display: inline-block;
+    padding: 3px 13px 3px 13px;
+}
+
+#information .box-container .topics .progress .progress-bar .active-bar3 {
+    background: #00f;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    width: 65%;
+    overflow: hidden;
+}
+
+#information .box-container .topics .progress .progress-bar .active-bar3 span {
+    color: #fff;
+    display: inline-block;
+    padding: 3px 13px 3px 13px;
+}
+
+#information .box-container .topics .progress .progress-bar .active-bar4 {
+    background: #00f;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    width: 90%;
+    overflow: hidden;
+}
+
+#information .box-container .topics .progress .progress-bar .active-bar4 span {
+    color: #fff;
+    display: inline-block;
+    padding: 3px 13px 3px 13px;
+}
+
+#information .box-container .topics .progress .progress-bar .bar-progress {
+    color: #000;
+    display: inline-block;
+    position: absolute;
+    top: 3px;
+    right: 10px;
+}
+
+#information .box-container .topics .progress .progress-bar .re-progress span {
+    color: #fff;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 346.7px;
+    z-index: 1;
+    overflow: hidden;
+}
+#cases {
+    overflow: auto;
+    background: #eff4f7;
+}
+
+#cases .topics {
+    display: inline-block;
+    width: 25%;
+    float: left;
+}
+
+#cases .topics .marginally {
+    margin: 30px 10px 30px 10px;
+    text-align: center;
+    background: #fff;
+}
+
+#cases .topics .marginally .avatar img{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#cases .topics .marginally h2 {
+    font-size: 28px;
+    font-weight: 450;
+    margin-bottom: 15px;
+}
+
+#cases .topics .marginally p {
+    color: grey;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-bottom: 1px solid #eff4f7;
+}
+
+#cases .topics .marginally:hover h2{
+    color: #21c2f8;
+}
+
+#cases .topics .marginally:hover .button {
+    background: #21c2f8;
+}
+
+#cases .topics .marginally .button {
+    background: #e0e5e9;
+    display: inline-block;
+    color: #fff;
+    padding: 10px 10px 10px 10px;
+    margin-top: 20px;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+
+#pre-footer {
+    overflow: auto;
+    border-bottom: 1px solid #3d464b;
+    background: #2f383d;
+}
+
+#pre-footer .box-container {
+    overflow: auto;
+    margin-top: 13px;
+    margin-bottom: 13px;
+}
+
+#pre-footer .icons {
+    width: 8.3333%;
+    float: left;
+}
+
+#pre-footer .icons .avatar a {
+    margin-left: 38px;
+}
+
+#main-footer {
+    overflow: auto;
+    background: #2f383d;
+}
+
+#main-footer .box-container {
+    margin-bottom: 30px;
+    overflow: auto;
+}
+
+#main-footer .topics {
+    width: 25%;
+    float: left;
+    display: inline-block;
+    padding-right: 25px;
+    overflow: auto;
+    box-sizing: border-box;
+}
+
+#main-footer .topics h2 {
+    text-align: center;
+    font-size: 26px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#main-footer .topics p {
+    color: #6f7c84;
+    margin-bottom: 10px;
+}
+
+#main-footer .topics h5 {
+    margin-bottom: 10px;
+    float: left;
+    border-bottom: 1px solid #6f7c84;
+    color: #6f7c84;
+}
+
+#main-footer .topics h3 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+#main-footer .topics .history {
+    width: 100%;
+    float: left;
+    display: inline-block;
+}
+
+#main-footer .topics .history h4 {
+    color: #6f7c84;
+    font-weight: 500;
+}
+
+#main-footer .topics .history:hover h4 {
+    color: #fff;
+}
+
+#main-footer .topics .history p {
+    color: #6b767c;
+    margin-top: 5px;
+}
+
+#main-footer .topics .history .show {
+    float: left;
+    margin-right: 10px;
+}
+
+#main-footer .topics .history .hide {
+    float: left;
+    margin-right: 10px;
+    display: none;
+    min-height: 64px;
+    min-width: 64px;
+    position: relative;
+    margin-right: 10px;
+}
+
+#main-footer .topics .history .hide .pict {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 35%;
+    transform: translateY(-50%);
+    margin-right: -10px;
+}
+
+#main-footer .topics .history .hide img {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+
+#main-footer .topics .history:hover .hide {
+    display: block;
+    background: #21c2f8;
+}
+
+#main-footer .topics .history .currently .show:hover .hide img {
+    display: block;
+}
+
+#main-footer .topics .history:hover .show img{
+    display: none;
+}
+
+#main-footer .topics .taggs {
+    width: 100%;
+}
+
+#main-footer .topics .taggs p {
+    float: left;
+    background: #212629;
+    padding: 5px;
+    margin-right: 5px;
+}
+
+#main-footer .topics .photos {
+    width: 100%;
+    float: left;
+}
+
+#main-footer .topics .photos .avatar {
+    float: left;
+    padding: 0 5px 5px 0;
+}
+
+#post-footer {
+    background: #21262a;
+    overflow: auto;
+}
+
+#post-footer .box-container .left {
+    float: left;
+    display: inline-block;
+    margin: 15px;
+}
+
+#post-footer .box-container .left p {
+    color: #6f7c84;
+}
+
+#post-footer .box-container .right {
+    float: right;
+    display: inline-block;
+    margin: 15px;
+}
+
+#post-footer .box-container .right li {
+    display: inline-block;
+}
+
+#post-footer .box-container .right li a {
+    padding: 0 20px 0 20px;
+    display: inline-block;
+    color: #6f7c84;
+}
+
+.modal-container {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    z-index: 999;
+}
+
+.modal-container .modal {
+    display: none;
+    max-width: 600px;
+    margin: 50px auto 0;
+    background: #fff;
+    border-radius: 5px;
+    padding: 30px;
+    box-sizing: border-box;
+}
